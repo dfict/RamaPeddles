@@ -314,8 +314,8 @@
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -356,6 +356,123 @@
 						"subpatcher_template" : "newtemplate",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 819.0, 308.0, 19.0, 22.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 767.0, 308.0, 26.0, 22.0 ],
+									"text" : "+ 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 767.0, 348.0, 42.0, 22.0 ],
+									"text" : "gate 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 811.0, 397.0, 61.0, 22.0 ],
+									"text" : "out 4 led2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 748.0, 397.0, 61.0, 22.0 ],
+									"text" : "out 3 led1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 767.0, 267.0, 56.0, 22.0 ],
+									"text" : "swtoggle"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 767.0, 224.0, 67.0, 22.0 ],
+									"text" : "param sw1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 884.0, 391.0, 65.0, 22.0 ],
+									"text" : "out 5 relay"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 883.0, 329.0, 56.0, 22.0 ],
+									"text" : "swtoggle"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 883.0, 231.0, 67.0, 22.0 ],
+									"text" : "param sw1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "comment",
@@ -545,62 +662,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-125",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 359.0, 356.0, 129.0, 20.0 ],
-									"text" : "hold petal lights 2-4 off"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 476.0, 396.0, 61.0, 22.0 ],
-									"text" : "out 6 led4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-27",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 404.0, 396.0, 61.0, 22.0 ],
-									"text" : "out 5 led3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-29",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 335.0, 396.0, 61.0, 22.0 ],
-									"text" : "out 4 led2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-44",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 335.0, 356.0, 19.0, 22.0 ],
-									"text" : "0"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-138",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -671,17 +732,6 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 39.25, 159.0, 125.0, 22.0 ],
 									"text" : "gate 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-73",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 70.25, 98.0, 61.0, 22.0 ],
-									"text" : "out 3 led1"
 								}
 
 							}
@@ -865,9 +915,65 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 1 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-25", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"color" : [ 0.501959443092346, 0.250944197177887, 0.010033501312137, 1.0 ],
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-34", 0 ]
 								}
 
 							}
@@ -884,30 +990,6 @@
 									"color" : [ 0.501959443092346, 0.250944197177887, 0.010033501312137, 1.0 ],
 									"destination" : [ "obj-20", 1 ],
 									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
-									"order" : 1,
-									"source" : [ "obj-44", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
-									"order" : 2,
-									"source" : [ "obj-44", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"order" : 0,
-									"source" : [ "obj-44", 0 ]
 								}
 
 							}
@@ -937,16 +1019,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-73", 0 ],
-									"order" : 0,
-									"source" : [ "obj-74", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-75", 0 ],
-									"order" : 1,
 									"source" : [ "obj-74", 0 ]
 								}
 
@@ -1020,7 +1093,7 @@
 ,
 					"patching_rect" : [ 80.0, 435.0, 131.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/peddles/",
+						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/pedals/",
 						"exportname" : "Parametric"
 					}
 ,
@@ -1163,14 +1236,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "genbiquad.gendsp",
 				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "genpeaknotch.gendsp",
 				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -1205,14 +1278,14 @@
 , 			{
 				"name" : "swtoggle.gendsp",
 				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testinput_bpatch.maxpat",
 				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../pedals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
