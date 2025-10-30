@@ -558,11 +558,12 @@
 								"box" : 								{
 									"color" : [ 0.064120709896088, 0.501819789409637, 0.501972615718842, 1.0 ],
 									"id" : "obj-15",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 480.0, 76.5, 208.0, 22.0 ],
+									"patching_rect" : [ 480.0, 76.5, 90.0, 62.0 ],
 									"text" : "param knob2_fb @min 0. @max 0.99"
 								}
 
@@ -829,7 +830,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 97.0, 517.0, 61.0, 47.0 ],
+									"patching_rect" : [ 97.0, 517.0, 65.0, 47.0 ],
 									"text" : "ping pong 1 or 0\n",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
