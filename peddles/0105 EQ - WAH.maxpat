@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 495.0, 147.0, 639.0, 742.0 ],
+		"rect" : [ 2277.0, 128.0, 639.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -366,7 +366,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 218.0, 100.0, 1135.0, 781.0 ],
+						"rect" : [ 2127.0, 85.0, 1135.0, 781.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -624,18 +624,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 229.75, 507.0, 32.0, 22.0 ],
 									"text" : "mtof"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.059509769082069, 0.501929938793182, 0.998454749584198, 1.0 ],
-									"id" : "obj-29",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 341.75, 467.0, 61.0, 22.0 ],
-									"text" : "out 4 led2"
 								}
 
 							}
@@ -1129,16 +1117,6 @@
 								"patchline" : 								{
 									"color" : [ 0.059509769082069, 0.501929938793182, 0.998454749584198, 1.0 ],
 									"destination" : [ "obj-14", 0 ],
-									"order" : 1,
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 0.059509769082069, 0.501929938793182, 0.998454749584198, 1.0 ],
-									"destination" : [ "obj-29", 0 ],
-									"order" : 0,
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1207,7 +1185,7 @@
 ,
 					"patching_rect" : [ 39.0, 439.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/danielfishkin/code_lessons/DAISY_resources/pedals/peddles/",
+						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/peddles/",
 						"exportname" : "Wah"
 					}
 ,
@@ -1366,49 +1344,49 @@
 		"dependency_cache" : [ 			{
 				"name" : "genlores.gendsp",
 				"bootpath" : "~/gitprojects/IDMPEDALS/pedals",
-				"patcherrelativepath" : "../../../../gitprojects/IDMPEDALS/pedals",
+				"patcherrelativepath" : "../../IDMPEDALS/pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.ctrl.smooth3.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.node4max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.snoop.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swtoggle.gendsp",
 				"bootpath" : "~/gitprojects/IDMPEDALS/pedals",
-				"patcherrelativepath" : "../../../../gitprojects/IDMPEDALS/pedals",
+				"patcherrelativepath" : "../../IDMPEDALS/pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testinput_bpatch.maxpat",
-				"bootpath" : "~/code_lessons/DAISY_resources/pedals/peddles",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/gitprojects/IDMPEDALS/pedals",
+				"patcherrelativepath" : "../../IDMPEDALS/pedals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
