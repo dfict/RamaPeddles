@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 285.0, 138.0, 828.0, 553.0 ],
+		"rect" : [ 1737.0, 301.0, 1367.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 141.0, 20.0, 41.0, 48.0 ],
+					"patching_rect" : [ 132.5, 32.000000953674316, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "osc1",
@@ -137,7 +137,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 52.0, 20.0, 41.0, 48.0 ],
+					"patching_rect" : [ 56.0, 32.000000953674316, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "offset",
@@ -314,7 +314,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 430.0, 256.0, 936.0, 565.0 ],
+						"rect" : [ 1761.0, 62.0, 1442.0, 984.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1001,6 +1001,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
+									"order" : 1,
+									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 0,
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -1045,7 +1054,7 @@
 ,
 					"patching_rect" : [ 183.0, 185.0, 135.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/danielfishkin/code_lessons/DAISY_resources/pedals/peddles/0003_testSAH/",
+						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/peddles/",
 						"exportname" : "DaisyTest"
 					}
 ,
@@ -1166,28 +1175,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "oopsy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/oopsy/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.node4max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.snoop.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swtoggle.gendsp",
 				"bootpath" : "~/gitprojects/IDMPEDALS/pedals",
-				"patcherrelativepath" : "../../../../../gitprojects/IDMPEDALS/pedals",
+				"patcherrelativepath" : "../../IDMPEDALS/pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
