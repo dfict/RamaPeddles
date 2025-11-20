@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 310.0, 100.0, 824.0, 757.0 ],
+		"rect" : [ 1942.0, 63.0, 1284.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -312,7 +312,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 99.0, 100.0, 1025.0, 672.0 ],
+						"rect" : [ 1849.0, 270.0, 1537.0, 776.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -348,7 +348,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 276.0, 469.0, 23.0, 22.0 ],
-									"text" : "* 3"
+									"text" : "* 6"
 								}
 
 							}
@@ -408,7 +408,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 609.0, 383.0, 19.0, 22.0 ],
+									"patching_rect" : [ 647.333352625370026, 451.333346784114838, 19.0, 22.0 ],
 									"text" : "1"
 								}
 
@@ -420,7 +420,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 557.0, 383.0, 26.0, 22.0 ],
+									"patching_rect" : [ 595.333351075649261, 451.333346784114838, 26.0, 22.0 ],
 									"text" : "+ 1"
 								}
 
@@ -432,7 +432,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 557.0, 423.0, 42.0, 22.0 ],
+									"patching_rect" : [ 595.333351075649261, 491.333347976207733, 42.0, 22.0 ],
 									"text" : "gate 2"
 								}
 
@@ -443,7 +443,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 601.0, 472.0, 61.0, 22.0 ],
+									"patching_rect" : [ 639.333352386951447, 540.000016093254089, 61.0, 22.0 ],
 									"text" : "out 4 led2"
 								}
 
@@ -454,7 +454,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 538.0, 472.0, 61.0, 22.0 ],
+									"patching_rect" : [ 576.000017166137695, 540.000016093254089, 61.0, 22.0 ],
 									"text" : "out 3 led1"
 								}
 
@@ -466,7 +466,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 557.0, 342.0, 56.0, 22.0 ],
+									"patching_rect" : [ 595.333351075649261, 410.000012218952179, 56.0, 22.0 ],
 									"text" : "swtoggle"
 								}
 
@@ -478,7 +478,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 557.0, 299.0, 67.0, 22.0 ],
+									"patching_rect" : [ 595.333351075649261, 367.333344280719757, 67.0, 22.0 ],
 									"text" : "param sw1"
 								}
 
@@ -489,7 +489,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 673.0, 472.0, 65.0, 22.0 ],
+									"patching_rect" : [ 711.333354532718658, 540.000016093254089, 65.0, 22.0 ],
 									"text" : "out 5 relay"
 								}
 
@@ -501,7 +501,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 673.0, 404.0, 56.0, 22.0 ],
+									"patching_rect" : [ 711.333354532718658, 472.000014066696167, 56.0, 22.0 ],
 									"text" : "swtoggle"
 								}
 
@@ -513,7 +513,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 673.0, 306.0, 67.0, 22.0 ],
+									"patching_rect" : [ 711.333354532718658, 374.000011146068573, 67.0, 22.0 ],
 									"text" : "param sw1"
 								}
 
