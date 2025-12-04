@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1082.0, 705.0 ],
+		"rect" : [ 1985.0, 217.0, 1082.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -428,7 +428,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 27.0, 27.0, 1323.0, 735.0 ],
+						"rect" : [ 1982.0, 133.0, 1323.0, 735.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1064,7 +1064,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 156.999999999999886, 441.0, 61.0, 22.0 ],
+									"patching_rect" : [ 166.979980000000012, 441.0, 61.0, 22.0 ],
 									"text" : "out 4 led2"
 								}
 
@@ -1425,7 +1425,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 288.0, 289.0, 122.0, 50.0 ],
+									"patching_rect" : [ 288.0, 289.0, 122.0, 49.0 ],
 									"text" : "param knob1_depth @default 1. @min 0. @max 1."
 								}
 
@@ -2053,7 +2053,7 @@
 ,
 					"patching_rect" : [ 198.0, 420.0, 116.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "C:/Users/lklam/Desktop/GitHub/RamaPeddles-main/peddles/",
+						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/peddles/",
 						"exportname" : "Tremolo"
 					}
 ,
@@ -2258,39 +2258,43 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "oopsy.ctrl.smooth3.gendsp",
-				"bootpath" : "C74:/packages/oopsy/code",
+				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.maxpat",
-				"bootpath" : "C74:/packages/oopsy/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/oopsy/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.node4max.js",
-				"bootpath" : "C74:/packages/oopsy/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.snoop.js",
-				"bootpath" : "C74:/packages/oopsy/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swtoggle.gendsp",
-				"bootpath" : "~/Desktop/GitHub/RamaPeddles/pedals",
-				"patcherrelativepath" : "../../RamaPeddles/pedals",
+				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
+				"patcherrelativepath" : "../pedals",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "testinput_bpatch.maxpat",
-				"bootpath" : "~/Desktop/GitHub/RamaPeddles/pedals",
-				"patcherrelativepath" : "../../RamaPeddles/pedals",
+				"bootpath" : "~/gitprojects/RamaPeddles/pedals",
+				"patcherrelativepath" : "../pedals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
