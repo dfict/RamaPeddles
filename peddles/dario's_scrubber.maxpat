@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 119.0, 1198.0, 828.0 ],
+		"rect" : [ 59.0, 119.0, 1334.0, 828.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,16 +53,16 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 99.0,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "01-CherryArb-241028_1628.wav",
 								"filename" : "01-CherryArb-241028_1628.wav",
 								"filekind" : "audiofile",
 								"id" : "u476002270",
-								"selection" : [ 0.53, 0.53 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 0
+									"loop" : 1
 								}
 
 							}
@@ -80,7 +80,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 395.0, 74.0, 255.0, 31.0 ],
+					"patching_rect" : [ 426.0, 36.0, 257.0, 100.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -372,7 +372,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 654.0, 550.0, 262.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "linear interpolation through the sample object—play the bufferz!"
 								}
 
@@ -385,7 +384,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 805.0, 478.0, 262.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "A phasor (0→1 ramp) sweeps between the two stutter knob positions, This reads through the buffer linearly, creating the loop"
 								}
 
@@ -398,7 +396,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 564.0, 362.0, 262.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "A phasor oscillates at a rate inversely proportional to this range (smaller range = faster oscillation)"
 								}
 
@@ -411,7 +408,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 564.0, 296.0, 236.0, 33.0 ],
-									"presentation_linecount" : 3,
 									"text" : "the difference between them is the playback range"
 								}
 
@@ -445,8 +441,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 416.0, 304.0, 19.0, 22.0 ],
-									"text" : "1"
+									"patching_rect" : [ 416.0, 304.0, 32.0, 22.0 ],
+									"text" : "0.25"
 								}
 
 							}
@@ -1169,11 +1165,11 @@
 					"patching_rect" : [ 140.0, 524.0, 36.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/peddles/",
-						"exportname" : "crazy_experiment"
+						"exportname" : "dario_27s_scrubber"
 					}
 ,
 					"text" : "gen~",
-					"varname" : "crazy_experiment"
+					"varname" : "dario_27s_scrubber"
 				}
 
 			}
