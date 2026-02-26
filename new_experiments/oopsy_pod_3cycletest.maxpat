@@ -40,6 +40,123 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 484.0, 566.0, 150.0, 20.0 ],
+					"text" : "tare'd pot"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 453.0, 431.0, 150.0, 20.0 ],
+					"text" : "normal pot"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-33",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 474.0, 520.5, 56.0, 22.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 466.0, 385.0, 56.0, 22.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "knob3",
+					"id" : "obj-29",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 856.0, 215.714285714285666, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 924.0, 48.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "osc2[1]",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "osc2",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "live.dial[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "sw3",
+					"displaymode" : 8,
+					"id" : "obj-26",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 688.0, 328.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 78.0, 607.0, 23.0, 22.0 ],
+					"text" : "tar"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "live.toggle",
 					"numinlets" : 1,
@@ -206,7 +323,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "number~",
-					"mode" : 2,
+					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
@@ -286,9 +403,9 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"numinlets" : 2,
+					"numoutlets" : 6,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -300,7 +417,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 837.0, 154.0, 942.0, 689.0 ],
+						"rect" : [ 536.0, 154.0, 942.0, 689.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -329,6 +446,91 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 570.0, 551.0, 35.0, 22.0 ],
+									"text" : "out 6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 456.701005339622498, 204.123699903488159, 35.0, 22.0 ],
+									"text" : "out 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 884.536032915115356, 176.288649916648865, 77.0, 22.0 ],
+									"text" : "scale 0 1 0 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 884.536032915115356, 135.051538825035095, 67.0, 22.0 ],
+									"text" : "param sw3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 498.0, 230.927822113037109, 77.0, 22.0 ],
+									"text" : "scale 0 1 0 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 498.0, 176.288649916648865, 79.0, 22.0 ],
+									"text" : "param knob3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"code" : "History prev(0);\nHistory offset1(0);\nHistory offset2(0);\nHistory offset3(0);\n\nedge = in4 > 0.5 && prev < 0.5;\nif (edge) {\n    offset1 = in1;\n    offset2 = in2;\n    offset3 = in3;\n}\nprev = in4;\n\nout1 = in1 - offset1;\nout2 = in2 - offset2;\nout3 = in3 - offset3;",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 12.0,
+									"id" : "obj-45",
+									"maxclass" : "codebox",
+									"numinlets" : 4,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 504.123683094978333, 269.072149872779846, 299.999983191490173, 213.402049899101257 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-26",
 									"maxclass" : "newobj",
@@ -432,17 +634,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.25, 359.0, 49.0, 22.0 ],
 									"text" : "dcblock"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-35",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 183.0, 210.0, 100.0, 22.0 ]
 								}
 
 							}
@@ -602,42 +793,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-10",
-									"linecount" : 4,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 493.5, 150.0, 108.0, 60.0 ],
-									"text" : "Pod encoder will be +1, -1 or 0;\nencoder press will be 0 or 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 473.5, 120.0, 75.0, 22.0 ],
-									"text" : "param press"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 453.5, 96.0, 186.0, 22.0 ],
-									"text" : "param encoder @min -1 @max 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -667,7 +822,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 794.5, 96.0, 107.0, 22.0 ],
+									"patching_rect" : [ 812.0, 25.0, 107.0, 22.0 ],
 									"text" : "oopsy.suggestions"
 								}
 
@@ -691,41 +846,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 9.5, 96.0, 69.0, 20.0 ],
 									"text" : "INPUTS"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-36",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 651.0, 62.5, 139.0, 20.0 ],
-									"text" : "MIDI:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 651.0, 96.0, 53.0, 22.0 ],
-									"text" : "in 3 midi"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-30",
-									"linecount" : 7,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 651.0, 150.0, 139.0, 100.0 ],
-									"text" : "\"midi\" input/output is converted to/from normalized byte streams. See the MIDI examples more info on how to read and write these. "
 								}
 
 							}
@@ -930,6 +1050,43 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"order" : 0,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"order" : 1,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-50", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-41", 1 ],
 									"source" : [ "obj-49", 0 ]
 								}
@@ -939,6 +1096,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 3 ],
+									"source" : [ "obj-50", 0 ]
 								}
 
 							}
@@ -979,12 +1143,12 @@
 ,
 					"patching_rect" : [ 18.0, 267.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/danielfishkin/code_lessons/DAISY_resources/old_learning_daisy/",
-						"exportname" : "oopsy_pod"
+						"exportfolder" : "Macintosh HD:/Users/danielfishkin/gitprojects/RamaPeddles/new_experiments/",
+						"exportname" : "oopsy_pod_3cycletest"
 					}
 ,
 					"text" : "gen~",
-					"varname" : "oopsy_pod"
+					"varname" : "oopsy_pod_3cycletest"
 				}
 
 			}
@@ -1167,6 +1331,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-1", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-1", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -1216,6 +1394,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-3", 1 ]
 				}
@@ -1232,6 +1431,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1276,6 +1482,7 @@
 			"obj-19" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-20" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-25" : [ "osc1", "osc1", 0 ],
+			"obj-28" : [ "osc2[1]", "osc2", 0 ],
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-32" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-7::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
@@ -1305,56 +1512,56 @@
 , 			{
 				"name" : "oopsy.ctrl.smooth2.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.ctrl.smooth3.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.gate.min.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.gate.trig.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.node4max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.snoop.js",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/javascript",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/javascript",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "oopsy.suggestions.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/oopsy/code",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/oopsy/code",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/oopsy/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
