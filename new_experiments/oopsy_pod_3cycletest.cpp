@@ -128,12 +128,12 @@ typedef struct State {
 			
 		};
 		t_sample mul_187 = (((int)1) * m_sw_9);
-		t_sample sub_1551 = (m_knob_7 - ((int)0));
-		t_sample scale_1548 = ((safepow((sub_1551 * ((t_sample)1)), ((int)1)) * ((int)1)) + ((int)0));
-		t_sample scale_822 = scale_1548;
-		t_sample sub_1555 = (m_sw_6 - ((int)0));
-		t_sample scale_1552 = ((safepow((sub_1555 * ((t_sample)1)), ((int)1)) * ((int)1)) + ((int)0));
-		t_sample scale_845 = scale_1552;
+		t_sample sub_1622 = (m_knob_7 - ((int)0));
+		t_sample scale_1619 = ((safepow((sub_1622 * ((t_sample)1)), ((int)1)) * ((int)1)) + ((int)0));
+		t_sample scale_822 = scale_1619;
+		t_sample sub_1626 = (m_sw_6 - ((int)0));
+		t_sample scale_1623 = ((safepow((sub_1626 * ((t_sample)1)), ((int)1)) * ((int)1)) + ((int)0));
+		t_sample scale_845 = scale_1623;
 		t_sample mul_174 = (((int)1) * m_sw_10);
 		t_sample mul_176 = (m_knob_5 * ((int)2000));
 		t_sample add_178 = (((int)300) + mul_176);
@@ -155,8 +155,8 @@ typedef struct State {
 				
 			};
 			m_prev_4 = scale_845;
-			t_sample expr_1489 = (scale_822 - m_offset_3);
-			t_sample out6 = expr_1489;
+			t_sample expr_1592 = (scale_822 - m_offset_3);
+			t_sample out6 = expr_1592;
 			t_sample out3 = mul_174;
 			__m_cycle_11.freq(add_178);
 			t_sample cycle_181 = __m_cycle_11(__sinedata);
