@@ -1,7 +1,8 @@
 # RamaPeddles
 Printing and drilling the templates for the funbox layout should be pretty straightforward... but it is not!
 
-https://www.taydaelectronics.com/uv-printing-service-guide-v1
+https://www.taydaelectronics.com/enclosure-modification-ordering-guide-v1
+
 ostensibly all the information is here.
 if you follow this guide, read, watch videos, all should work out.
 
@@ -25,4 +26,20 @@ but you need to save it to your account.
 
 3)the next part is the UV printing art, which you'll need to <b>carefully</b> follow the guide from tayda, converting your art to SVG, obeying the right color profile, etc...
 
-4) check the
+https://www.taydaelectronics.com/uv-printing-service-guide-v1
+this page is extremely comprehensive so I won't go too deep into making little excerpts here.
+You can use Adobe Illustrator or Canva Affinity (free)
+
+<img src="125bselection.png">
+
+4) check the pdf of the exported UV art 
+https://pdf.tayda.com/
+(username: pdfman / password: pdfman) to check your file for errors before submitting.
+Upload your pdf (exported CMYK vectors from illustrator or affinity)
+you should make sure you use the funbox drill template in the pdf viewer:
+<a href="36706_125B_funbox-drill-template.txt"> 36706_125B_funbox-drill-template.txt</a>
+
+5) after you've checked the graphics and the holes, you "box them up"
+https://www.taydaelectronics.com/enclosure-modification-ordering-guide-v1
+using the Tayda Box Tool.
+This part is pretty easy! 
