@@ -13,10 +13,15 @@ but there a few things you will need to make sense of this guide:
 2) you'll also need a drill template.
 these links i'll send don't work unless you login/make an account here:
 https://drill.taydakits.com
+
 so make sure you do that and then click this link again.
+
 https://drill.taydakits.com/box-designs/new?public_key=M3BDZTdRSmFWRkF4QXpQUzRORjIwQT09Cg==
+
 this drill template is exactly what we need.
+
 https://drill.taydakits.com/box-designs/new?public_key=cmNGZE9RTXhWN2VxMW1tTW4xQ2ZQUT09Cg==
+
 this drill template actually uses a slightly bigger hole for the 9v jack. I'll check and figure 
 out which one we need.
 
@@ -33,10 +38,13 @@ You can use Adobe Illustrator or Canva Affinity (free)
 <img src="125bselection.png">
 
 4) check the pdf of the exported UV art 
+
 https://pdf.tayda.com/
+
 (username: pdfman / password: pdfman) to check your file for errors before submitting.
 Upload your pdf (exported CMYK vectors from illustrator or affinity)
 you should make sure you use the funbox drill template in the pdf viewer:
+
 <a href="36706_125B_funbox-drill-template.txt"> 36706_125B_funbox-drill-template.txt</a>
 
 5) after you've checked the graphics and the holes, you "box them up"
