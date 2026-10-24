@@ -16,8 +16,6 @@ actually this might be the most recent release for oopsy!!! make sure you instal
 https://forum.electro-smith.com/t/oopsy-update-prerelease-want-to-try-the-new-features-early/3456
 </b>
 
-[https://docs.daisy.audio/tutorials/oopsy-dev-env/](https://docs.daisy.audio/tutorials/oopsy-dev-env/)
-
 https://docs.daisy.audio/tutorials/oopsy-dev-env/
 
 Go here to install the toolchain and the oopsy package. first you install the toolchain (for flashing code)
