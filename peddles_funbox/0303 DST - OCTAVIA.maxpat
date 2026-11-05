@@ -309,7 +309,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 298.0, 121.0, 567.0, 127.0 ],
-									"presentation_linecount" : 12,
 									"text" : "an equal-power crossfade between the clean signal and the effected signal.\n\n Each side’s gain is the square root of the knob position (√x for the octave, √(1−x) for the clean signal). At the center, each side sits at −3 dB (0.707). Because the clean and octave signals are uncorrelated, they add by power, so the center position is just as loud as either end. A linear mix would dip about 3 dB in the middle. \n\nThis is the same idea as the pan law on a mixing desk: the center position isn’t quieter than hard left or right."
 								}
 
