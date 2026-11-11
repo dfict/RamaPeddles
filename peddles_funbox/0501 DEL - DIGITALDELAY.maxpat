@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 161.0, 642.0, 750.0 ],
+		"rect" : [ 2071.0, 62.0, 1125.0, 984.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -405,7 +405,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 301.0, 100.0, 872.0, 811.0 ],
+						"rect" : [ 2006.0, 83.0, 1074.0, 963.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -889,7 +889,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 101.75, 523.0, 67.0, 22.0 ],
-									"text" : "param sw8"
+									"text" : "param sw5"
 								}
 
 							}
